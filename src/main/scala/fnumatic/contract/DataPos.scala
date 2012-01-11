@@ -1,0 +1,4 @@
+package fnumatic.contract
+import Types._
+
+case class DataPos(data:Data, pos:Position)

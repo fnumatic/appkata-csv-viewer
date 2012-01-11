@@ -1,0 +1,8 @@
+FlowDesign AppKata CSV Viewer with scala
+
+http://clean-code-advisors.com/ressourcen/application-katas
+
+FlowDesign ressources (german):
+http://clean-code-advisors.com/ressourcen/flow-design-ressourcen
+
+in this example i use reactive-core, a FRP library by Naftoli Gugenheim http://github.com/nafg/reactive
