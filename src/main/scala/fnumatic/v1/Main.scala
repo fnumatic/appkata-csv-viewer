@@ -1,11 +1,12 @@
-package fnumatic
+package fnumatic.v1
 
 import contract.First
 import contract.Types._
-import ebc.{Platine}
-import logic.{Getpagefrombuffer, Format_page, Config}
+import fnumatic.v1.logic.{Getpagefrombuffer, Format_page, Config}
 import reactive.Var
 import ui.Ui
+import ebc.Platine
+import scala.{Unit, App}
 
 object Main extends App with Platine[Unit, Unit] {
   val data = Var[Data](Nil)

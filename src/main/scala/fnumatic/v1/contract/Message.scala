@@ -1,4 +1,4 @@
-package fnumatic.contract
+package fnumatic.v1.contract
 
 sealed abstract class Message
 case class Next() extends Message

@@ -1,8 +1,8 @@
-package fnumatic.logic
+package fnumatic.v1.logic
 
-import fnumatic.ebc.{FuncUnit, Platine}
+import fnumatic.v1.ebc.{FuncUnit, Platine}
 import io.Source
-import fnumatic.contract.Types._
+import fnumatic.v1.contract.Types._
 import reactive.EventSource
 
 case class Config() extends Platine[Array[String], Data] {

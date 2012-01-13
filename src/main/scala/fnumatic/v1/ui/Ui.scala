@@ -1,8 +1,8 @@
-package fnumatic.ui
+package fnumatic.v1.ui
 
-import fnumatic.ebc.{Platine, FuncUnit}
-import fnumatic.contract.Types._
-import fnumatic.contract._
+import fnumatic.v1.ebc.{Platine, FuncUnit}
+import fnumatic.v1.contract.Types._
+import fnumatic.v1.contract._
 
 case class Ui() extends Platine[Data, Message] {
   val print_data = Print_data()

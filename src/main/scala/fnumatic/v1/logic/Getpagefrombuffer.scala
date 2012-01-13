@@ -1,8 +1,8 @@
-package fnumatic.logic
+package fnumatic.v1.logic
 
-import fnumatic.ebc.{Platine, FuncUnit}
-import fnumatic.contract.Types._
-import fnumatic.contract._
+import fnumatic.v1.ebc.{Platine, FuncUnit}
+import fnumatic.v1.contract.Types._
+import fnumatic.v1.contract._
 import reactive.Signal
 
 case class Getpagefrombuffer(data: Signal[Data], lines: Signal[Int]) extends Platine[Message, DataPos] {

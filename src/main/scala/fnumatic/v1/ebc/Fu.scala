@@ -1,4 +1,4 @@
-package fnumatic.ebc
+package fnumatic.v1.ebc
 
 import reactive.{EventSource, Observing}
 
