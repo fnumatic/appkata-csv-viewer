@@ -13,7 +13,6 @@ case class Ui() extends Platine[Data, Message] {
   (this |> print_data) >> read_interaction >> exit >| this
 
   case class Read_interaction() extends FuncUnit[Unit, Message] {
-    val out_exit = out.takeWhile(_ != Exit())
 
     def process(i: Unit) = {
       val c = try Some(readChar()) catch {case _ => None}
